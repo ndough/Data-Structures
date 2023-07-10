@@ -114,7 +114,7 @@ int main() {
    delete[] ptrTArray3;    
  
    // C++11 syntax, compile with -std=c++0x
-   Time* ptrTArray4 = new Time[2] {Time(11, 12, 13), Time(14)}; 
+   Time* ptrTArray4 = new Time[2]{Time(11, 12, 13), Time(14)}; 
    ptrTArray4->print();    //11:12:13
    //pointer to array point to first one
    (ptrTArray4 + 1)->print(); //14:00:00
